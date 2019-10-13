@@ -1,0 +1,12 @@
+[
+  {
+    "repository": "FireHound-Upstream/android_device_motorola_msm8937-common",
+    "target_path": "device/motorola/msm8937-common"
+  },
+  {
+    "remote": "github",
+    "repository": "moto-msm8937-common/proprietary_vendor_motorola_montana",
+    "target_path": "vendor/motorola/montana",
+    "branch": "lineage-15.1"
+  }
+]

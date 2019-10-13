@@ -22,8 +22,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/motorola/montana/device.mk)
 $(call inherit-product, vendor/motorola/montana/montana-vendor.mk)
 
-# Inherit from the common LineageOS configuration.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit from the common FireHound configuration.
+$(call inherit-product, vendor/fh/config/common_full_phone.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
@@ -37,7 +37,7 @@ TARGET_SCREEN_WIDTH := 1080
 TARGET_SCREEN_HEIGHT := 1920
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := lineage_montana
+PRODUCT_NAME := fh_montana
 PRODUCT_BRAND := motorola
 PRODUCT_DEVICE := montana
 PRODUCT_MODEL := Moto G5S
